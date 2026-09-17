@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Reggae One", system-ui;
+}
+
+main {
+    flex-grow: 1;
+
+}
+header {
+    box-shadow: 0 2px 20px 0 #451d003d;
+    color: orange;
+    
+}
+.header_container {
+    display: flex;
+    flex-direction: row;
+}
